@@ -4,7 +4,7 @@ int main3(void)
 {
 	int n, result = 0;
 
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+	printf("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 	scanf_s("%d", &n);
 
 	while (n > 0)
@@ -13,6 +13,6 @@ int main3(void)
 		n /= 10;
 	}
 
-	printf("ÀÔ·ÂÇÑ Á¤¼öÀÇ °¢ ÀÚ¸® ¼öÀÇ ÇÕÀº %d ÀÌ´Ù.\n", result);
+	printf("ì…ë ¥í•œ ì •ìˆ˜ì˜ ê° ìë¦¬ ìˆ˜ì˜ í•©ì€ %d ì´ë‹¤.\n", result);
 	return 0;
 }
