@@ -14,11 +14,11 @@ void insert(Phone* ptr, int* count)
 {
 
 	printf("이름>>");
-	scanf_s("%s", ptr[*count].name,30);
+	scanf_s("%s", ptr[*count].name, 20);
 	printf("주소>> ");
-	scanf_s("%s", ptr[*count].address,50);
+	scanf_s("%s", ptr[*count].address, 20);
 	printf("전화번호>>");
-	scanf_s("%s", ptr[*count].number,50);
+	scanf_s("%s", ptr[*count].number, 20);
 	(*count)++;
 
 }
@@ -30,7 +30,7 @@ int deleted(Phone* ptr, int* count)
 
 	if (*count > 0) {
 		printf("이름>> ");
-		scanf_s("%s", name,30);
+		scanf_s("%s", name, 20);
 
 		for (i = 0; i < MAX_NUM; i++)
 		{
@@ -77,7 +77,7 @@ int search(Phone* ptr, int* count)
 
 	if (*count > 0) {
 		printf("이름>>");
-		scanf_s("%s", name,30);
+		scanf_s("%s", name, 20);
 
 		for (i = 0; i < MAX_NUM; i++) {
 
